@@ -1,0 +1,37 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  'one1 one1 one1 one1 two1 two1'
+  'three1 three1 four1 four1 four1'
+  ' five1 five1 five1';
+}
+
+.grid-container > div {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1{
+    background-color: orange;
+    grid-area: one1;
+}
+
+.item2{
+    background-color: yellow;
+    grid-area: two1;
+}
+
+.grid3{
+    background-color: green;
+    grid-area: three1;
+}
+
+.grid4{
+    background-color: blue;
+    grid-area: four1;
+}
+
+.grid5{
+    background-color: blue;
+    grid-area: five1;
+}
